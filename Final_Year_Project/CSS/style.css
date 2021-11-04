@@ -3,7 +3,7 @@ body {
   color: #007b5e;
 }
 
-a {
+a.style{
   color: #007b5e;
   text-transform: uppercase;
   font-size: large;
@@ -11,7 +11,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+a.style:hover {
   color:rgb(61, 11, 95);
   font-size: x-large;
   text-decoration: none;
@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 nav{
-  background: #eee !important;
+  background: #f3f1f1 !important;
 }
 
 /*--------------------------------------------------------------
@@ -97,7 +97,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #e03a3c;
+  background: #a17070;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -371,14 +371,16 @@ section .section-title {
 --------------------------------------------------------------*/
 
 #footer {
-    color: #fff;
+  color: #e7ebea !important;
     font-size: 14px;
-    background: #111111;
+    
+    background: #4d4b4c;
   }
   
   #footer .footer-top {
     padding: 60px 0 30px 0;
-    background: #1b1b1b;
+    /* background: #1b1b1b; */
+    background: #4b524d !important;
   }
   
   #footer .footer-top .footer-contact {
@@ -494,7 +496,7 @@ section .section-title {
     background: none;
     font-size: 16px;
     padding: 0 20px;
-    background: #e03a3c;
+    background: #007b5e;
     color: #fff;
     transition: 0.3s;
     border-radius: 0 4px 4px 0;
