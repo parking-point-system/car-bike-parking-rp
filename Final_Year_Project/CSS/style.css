@@ -1,20 +1,28 @@
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: #007b5e;
 }
 
 a {
-  color: #e03a3c;
+  color: #007b5e;
+  text-transform: uppercase;
+  font-size: large;
+  font-weight: bold;
   text-decoration: none;
 }
 
 a:hover {
-  color: #e76668;
+  color:rgb(61, 11, 95);
+  font-size: x-large;
   text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
+}
+
+nav{
+  background: #eee !important;
 }
 
 /*--------------------------------------------------------------
@@ -50,14 +58,15 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 1;
 }
 
+
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
-}
+} */
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
