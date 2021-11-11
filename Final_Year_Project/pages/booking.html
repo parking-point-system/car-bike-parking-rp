@@ -20,7 +20,7 @@
   <!-- Nav -->
   <nav class="navbar navbar-expand-md sticky-top">
 
-    <a href="#" class="navbar-brand style"><i class="fas fa-car-side fa-2x"></i></a>
+    <a href="#" class="navbar-brand style"id="favi"><i class="fas fa-car-side fa-2x"></i></a>
 
     <button type="button" class="navbar-toggler bg-light" data-toggle="collapse" data-target="#nav">
       <span class="navbar-toggler-icon"></span>
@@ -81,26 +81,30 @@
                         </div>
                         <div class="form-group">
                             <i class="fas fa-mobile"></i>
-                            <input type="phone" class="myInput" placeholder="Mobile number">
+                            <input type="phone" class="myInput" placeholder="Mobile number" required>
                         </div>
 
                         <div class="form-group">
                             <i class="fas fa-envelope"></i>
                             <input class="myInput" placeholder="Email" type="text" id="email" required> 
                         </div>
+                        <div class="form-group">
+                          <i class="fas fa-map-marker-alt"></i>
+                          <input type="phone" class="myInput" placeholder="Your Address" required>
+                      </div>
 
-                    </form>
+                    <!-- </form> -->
                 </div>
             </div>
             <div class="col-md-6">
                 <!-- <div class="myRightCtn"> -->
                     <div class="myLeftCtn"> 
-                        <form class="myForm text-center">
+                        <!-- <form class="myForm text-center"> -->
                             
                             <div class="form-group">
                                 <i class="fas fa-car"></i>
                                 <!-- <input class="myInput" placeholder="vehicle" type="text" id="email" required> -->
-                                 <select class="myInput"name="vehicle" id="vehicle">
+                                 <select class="myInput"name="vehicle" id="vehicle" required style=" color: #555454;" required>
                                     <option value="vehicle">Vehicle Type</option>
                                     <option value="car">Car</option>
                                     <option value="Bike">Bike</option>
@@ -113,13 +117,20 @@
                             <div class="form-group">
                                 <i class="fas fa-calendar"></i>
                                 <!-- <input class="myInput" type="password" id="password" placeholder="Password" required>  -->
-                                <input class="myInput" type="datetime-local" id="slot" name="slot time" required>
+                                <input class="myInput" type="datetime-local" id="slot" name="slot time" required style=" color: #555454;">
                             </div>
-                         
-                        </form>
+                            <div class="form-group">
+                              <i class="fas fa-map-marker-alt"></i>
+                              <input type="phone" class="myInput" placeholder="Where you want to park" required>
+                          </div>
+                          
+                        <!-- </form> -->
                     </div>
                             
                 </div>
+                <input type="submit" class="butt" value="Submit">
+              </form>
+                
             </div>
         </div>
     </div>

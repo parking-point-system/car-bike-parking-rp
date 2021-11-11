@@ -2,7 +2,9 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #007b5e;
 }
-
+#favi{
+  padding-right: 30px;
+}
 a.style{
   color: #007b5e;
   text-transform: uppercase;
@@ -535,7 +537,7 @@ section .section-title {
   
   /*----------------------Booking -------------------------------*/
   .booking-container{
-    padding-block: 50px;
+    padding-block-start: 50px;
   }
 
   .myRightCtn {
@@ -557,7 +559,7 @@ section .section-title {
     border-radius: 25px;
     height: 100%;
     padding: 25px;
-    padding-left: 50px;
+    padding-left: 30px;
   }
  header {
     color: #007b5e;
@@ -577,6 +579,7 @@ section .section-title {
     position: relative;
     background: #fff;
     padding-block-start: 30px;
+  
     height: 100%;
     border-radius: 25px;
     -webkit-box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
@@ -590,7 +593,7 @@ section .section-title {
     margin-bottom: 100px;
   } 
   .myLeftCtn .myInput {
-    width: 330px;
+    width: 260px;
     border-radius: 25px;
     padding: 10px;
     padding-left: 50px;
@@ -606,7 +609,7 @@ section .section-title {
     position: relative;
     margin-top: 10px;
   } 
-  .myLeftCtn .butt {
+  /* .myLeftCtn .butt {
     background: linear-gradient(45deg, #bb36fd, #9b00e8);
     color: #fff;
     width: 230px;
@@ -624,6 +627,50 @@ section .section-title {
     outline: none;
   } 
   .myLeftCtn .fas {
+    position: relative;
+    color: #007b5e;
+    left: 36px;
+  } 
+  .butt_out {
+    background: transparent;
+    color: #fff;
+    width: 120px;
+    border: 2px solid#fff;
+    border-radius: 25px;
+    padding: 10px;
+    -webkit-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+  } 
+  .butt_out:hover {
+    border: 2px solid#eecbff;
+  } 
+  .butt_out:focus {
+    outline: none;
+  }
+   */
+
+.butt {
+    background: linear-gradient(45deg, #007b5e, #1a1a36);
+    color: #fff;
+    width: 230px;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 40%;
+   
+    -webkit-box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+  } 
+.butt:hover {
+    background: linear-gradient(45deg, #9675cc, #007b5e);
+  }
+.butt:focus {
+    outline: none;
+  } 
+.fas {
     position: relative;
     color: #007b5e;
     left: 36px;
