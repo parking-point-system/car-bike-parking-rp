@@ -27,6 +27,89 @@ nav{
   background: #f3f1f1 !important;
 }
 
+
+
+
+/*--------------------------------------------------------------
+# Get Startet Button
+--------------------------------------------------------------*/
+
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url("../images/banner.jpg") top center no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 82px;
+}
+
+#hero:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#hero h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+}
+
+#hero h2 {
+    color: #fff;
+    margin: 10px 0 0 0;
+    font-size: 24px;
+}
+
+#hero .btn-get-started {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 9px;
+    transition: 0.5s;
+    margin-top: 30px;
+    color: #fff;
+    background: #007b5e;
+    border: 2px solid #007b5e;
+}
+
+#hero .btn-get-started:hover {
+    background: transparent;
+    border-color: #fff;
+}
+#hero .btn-get-started:hover {
+  background: transparent;
+  border-color: #fff;
+}
+
+@media (max-width: 768px) {
+    #hero {
+        text-align: center;
+        padding-top: 58px;
+    }
+    #hero h1 {
+        font-size: 28px;
+    }
+    #hero h2 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+@media (max-height: 500px) {
+    #hero {
+        height: 120vh;
+    }
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -246,7 +329,7 @@ section .section-title {
 
 .contact .info-box i {
   font-size: 32px;
-  color: #e03a3c;
+  color: #108d6f;
   border-radius: 50%;
   padding: 8px;
   border: 2px dotted #f8d4d5;
@@ -275,7 +358,7 @@ section .section-title {
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #ed3c0d;
+  background: #108d6f;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -337,7 +420,7 @@ section .section-title {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #e03a3c;
+  background: #108d6f;
   border: 0;
   padding: 10px 32px;
   color: #fff;
@@ -396,7 +479,7 @@ section .section-title {
   }
   
   #footer .footer-top .footer-contact h3 span {
-    color: #e03a3c;
+    color: #108d6f;
   }
   
   #footer .footer-top .footer-contact p {
@@ -419,7 +502,7 @@ section .section-title {
     display: block;
     width: 20px;
     height: 2px;
-    background: #e03a3c;
+    background: #a17070;
     bottom: 0;
     left: 0;
   }
