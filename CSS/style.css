@@ -4,13 +4,16 @@ body {
 }
 #favi{
   padding-right: 30px;
+  
 }
+
 a.style{
   color: #007b5e;
   text-transform: uppercase;
   font-size: large;
   font-weight: bold;
   text-decoration: none;
+  
 }
 
 a.style:hover {
@@ -333,6 +336,7 @@ section .section-title {
   border-radius: 50%;
   padding: 8px;
   border: 2px dotted #f8d4d5;
+  position: relative;
 }
 
 .contact .info-box h3 {
